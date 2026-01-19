@@ -1,1 +1,0 @@
-print("Curso de python")
