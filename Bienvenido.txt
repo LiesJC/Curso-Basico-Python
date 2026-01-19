@@ -1,0 +1,12 @@
+Bienvenido al curso de Python Basico 
+
+-- Instalador de Python : https://www.python.org/downloads/windows/
+-- Instalador de Visual Studio Code : https://code.visualstudio.com/download
+
+Temario del curso 
+
+-- Programacion Estructurada
+-- Tipos de datos y estructura de datos
+-- Programacion Modular 
+-- Estructuras de control
+-- Listas Tuplas Conjuntos
