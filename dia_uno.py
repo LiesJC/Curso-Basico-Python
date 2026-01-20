@@ -24,11 +24,13 @@ num = 10000
 caracter = 'hola mundo'
 imaginario = 1+3j
 decimal = 3.4545
+boleano = True 
 
 print(type(num))
 print(type(caracter))
 print(type(imaginario))
 print(type(decimal))
+print(type(boleano))
 
 #Prueba de caracteres 
 num1 = 3
