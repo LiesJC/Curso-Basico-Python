@@ -75,23 +75,46 @@ else:
     print("El numero no esta en el segundo rango de valores")
 
 
-#Ejercicio 1
+# ----  PROGRAMA DE ADMINISTRACION DE UN TALLER MECANICO   -----
 print("ADMINISTRACION DEL TALLER MECANICO")
 print("1. Velocidad del carro")
 print("2. Estado el carro")
 print("3. Piezas")
-print("4. Exit")
+print("4. Salir")
 opcion = int(input("Ingresamos datos: "))
+
 if opcion == 1:
     print("MODULO DE VELOCIDAD DEL CARRO")
     tiempo = int(input("Escriba el tiempo de recorrido del carro: \t"))
     distancia = int(input("Escriba la distancia del recorrido: \t"))
     velocidad = distancia/tiempo
     print(f"La velocidad es {velocidad} [m/s]")
+
 elif opcion ==2:
-    pass
+    print("MODULO DE ESTADO DEL CARRO")
+    estado = int(input("Estado de rodamientos en 1 - 100:\t"))
+    if estado>=1 and estado<=100:
+        print("Esta es un un buen estado")
+    elif estado>=101 and  estado<=150:
+        print("El estado del rodamiento es critico")
+    else:
+        print("El estado del rodamiento esta defectuoso")    
+
 elif opcion ==3:
-    pass
+    #INVENTARIO     Base de datos
+    pieza1 = "Broca"
+    pieza2 = "Tornillos"
+    pieza3 = "Clavos"
+    pieza4 = "Pintura"
+
+    #Consulta
+    print("PREGUNTE POR SU PIEZA")
+    x = input("Pieza: ")
+    #print(type(x))      --- Para ver el tipo de dato de entrada
+    if x == pieza1 or x == pieza2 or x == pieza3 or x == pieza4:
+        print("Tenemos esa pieza en el taller mecanico")
+    else :
+        print("No tenemos esa pieza en el taller mecanico")
 elif opcion ==4:
     pass
 else:
