@@ -46,3 +46,5 @@ while x<10:
     fx = x**2+x**3+x**4-12
     print(fx)
     x = x + 0.1
+
+    
